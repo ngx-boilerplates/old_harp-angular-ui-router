@@ -111,7 +111,7 @@ var ngxFiles = {
     {
       src: [
         path.join(bowerDirectory, '/jquery/dist/jquery.js'),
-        path.join(bowerDirectory, '/jquery/dist/jquery.min.js')
+        path.join(bowerDirectory, '/jquery/dist/jquery.min.js'),
         path.join(bowerDirectory, '/jquery/dist/jquery.min.map')
       ],
       dest: path.join(outputDirectory, '/vendor/jquery/')
