@@ -4,11 +4,13 @@
     .config(['$stateProvider', function ($stateProvider) {
 
       $stateProvider
-        .state('home', {
+        .state('homepage', {
           url: '/',
           views: {
             'content@': {
-              templateUrl: '/components/homepage/homepage.html'
+              templateUrl: '/components/homepage/homepage.html',
+              controller: 'HomepageCtrl',
+              controllerAs: 'HomepageCtrl'
             }
           }
         });
